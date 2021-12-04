@@ -60,6 +60,14 @@ vector <Customer> create (vector <Customer> & cus)              //Function to op
         }  
     }
 
+    for (size_t i = 0; i < cus.size(); i++)
+    {
+        if (cus[i].username == c.get_username())
+        {
+            temp = 0;
+        }  
+    }
+    
     if (c.set_ip(n) == true && temp == 1)       
     {
         cus.push_back(c);
@@ -556,5 +564,6 @@ int main()
         {
             exit(0);
         }
+        Menu();
     }    
 }
