@@ -3,7 +3,7 @@
 #include <vector>
 
 #ifndef ex2_h
-#define x2_h
+#define ex2_h
 
 using namespace std;
 
